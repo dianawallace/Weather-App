@@ -1,6 +1,6 @@
 
 let units = 'imperial';
-let searchMethod;
+let searchMethod = 'zip';
 
 function searchWeather(searchTerm) {
     fetch(`http://api.openweathermap.org/data/2.5/weather?${searchMethod}=${searchTerm}&APPID=${appId}&units=${units}`).then(result => {
@@ -10,7 +10,9 @@ function searchWeather(searchTerm) {
     })
 }
 
-
+function init(resultFromServer) {
+    console.log(resultFromServer);
+}
 
 
 
