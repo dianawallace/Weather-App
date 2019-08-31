@@ -1,4 +1,4 @@
-
+let appleId = '';
 let units = 'imperial';
 let searchMethod = 'zip';
 
@@ -14,7 +14,11 @@ function init(resultFromServer) {
     console.log(resultFromServer);
 }
 
-
+document.getElementById('searchBtn').addEventListener('click', () => {
+    let searchTerm = document.getElementById('searchInput').value;
+    if(searchTerm)
+        searchWeather(searchTerm);
+})
 
 
 
