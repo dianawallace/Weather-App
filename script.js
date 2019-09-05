@@ -45,6 +45,11 @@ function init(resultFromServer) {
         default:
             break;
    }
+
+   let weatherDescriptionHeader = document.getElementById('weatherDescriptionHeader');
+   let temperatureElement = document.getElementById('temperature');
+   
+
 }
 
 document.getElementById('searchBtn').addEventListener('click', () => {
