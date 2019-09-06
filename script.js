@@ -48,6 +48,8 @@ function init(resultFromServer) {
 
    let weatherDescriptionHeader = document.getElementById('weatherDescriptionHeader');
    let temperatureElement = document.getElementById('temperature');
+   let humidityElement = document.getElementById('humidity');
+   let windSpeedElement = document.getElementById('windSpeed');
    
 
 }
