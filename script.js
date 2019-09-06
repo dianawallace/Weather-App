@@ -50,8 +50,9 @@ function init(resultFromServer) {
    let temperatureElement = document.getElementById('temperature');
    let humidityElement = document.getElementById('humidity');
    let windSpeedElement = document.getElementById('windSpeed');
+   let cityHeader = document.getElementById('cityHeader');
+   let weatherIcon = document.getElementById('documentIconImg');
    
-
 }
 
 document.getElementById('searchBtn').addEventListener('click', () => {
