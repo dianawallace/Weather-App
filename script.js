@@ -53,6 +53,7 @@ function init(resultFromServer) {
    let cityHeader = document.getElementById('cityHeader');
    let weatherIcon = document.getElementById('documentIconImg');
    
+   weatherIcon.src = 'http://openweathermap.org/img/w/' + resultFromServer.weather[0].icon + '.png';
 }
 
 document.getElementById('searchBtn').addEventListener('click', () => {
