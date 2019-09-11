@@ -59,6 +59,8 @@ function init(resultFromServer) {
    weatherDescriptionHeader.innerText = resultDescription.charAt(0).toUpperCase() + resultDescription.slice(1);
 
    temperatureElement.innerHTML = Math.floor(resultFromServer.main.temp) + '&#176';
+   windSpeedElement.innerHTML = 'Winds at ' + Math.floor(resultFromServer.wind.speed) + ' m/s';
+
 }
 
 document.getElementById('searchBtn').addEventListener('click', () => {
