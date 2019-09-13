@@ -64,4 +64,13 @@ body {
     vertical-align: 25%;
 }
 
+.bottomDetails {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+
+hr {
+    margin-bottom: 20px;
+}
 
