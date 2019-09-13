@@ -54,4 +54,14 @@ body {
     display: inline-block;
 }
 
+#weatherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50%;
+}
+
+#temperature {
+    font-size: 38px;
+    vertical-align: 25%;
+}
+
 
